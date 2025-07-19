@@ -1,8 +1,8 @@
 package com.projectkisan.controller;
 
-import com.projectkisan.dto.DiagnosisRequest;
-import com.projectkisan.dto.DiagnosisResponse;
-import com.projectkisan.model.CropDiagnosis;
+import com.projectkisan.model.DiagnosisRequest;
+import com.projectkisan.model.DiagnosisResponse;
+import com.projectkisan.dto.CropDiagnosis;
 import com.projectkisan.service.CropDiagnosisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

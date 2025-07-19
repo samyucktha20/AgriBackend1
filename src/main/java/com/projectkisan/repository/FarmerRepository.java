@@ -1,6 +1,6 @@
 package com.projectkisan.repository;
 
-import com.projectkisan.model.Farmer;
+import com.projectkisan.dto.Farmer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

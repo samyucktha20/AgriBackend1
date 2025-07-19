@@ -1,8 +1,8 @@
 package com.projectkisan.service;
 
 import com.google.firebase.database.*;
-import com.projectkisan.model.CropDiagnosis;
-import com.projectkisan.model.MarketPrice;
+import com.projectkisan.dto.CropDiagnosis;
+import com.projectkisan.dto.MarketPrice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ import java.util.concurrent.CompletableFuture;
 public class FirebaseService {
     
     @Autowired(required = false)
-    private FirebaseDatabase firebaseDatabase;
+    private FirebaseDatabase firebaseDatabase = null;
     
     public void publishDiagnosisUpdate(CropDiagnosis diagnosis) {
         if (firebaseDatabase == null) {

@@ -1,12 +1,10 @@
 package com.projectkisan.service;
 
-import com.projectkisan.dto.MarketPriceResponse;
-import com.projectkisan.model.MarketPrice;
+import com.projectkisan.model.MarketPriceResponse;
+import com.projectkisan.dto.MarketPrice;
 import com.projectkisan.repository.MarketPriceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.projectkisan.service.FirebaseService;
-import com.projectkisan.service.NotificationService;
 import org.springframework.web.reactive.function.client.WebClient;
 
 import java.math.BigDecimal;

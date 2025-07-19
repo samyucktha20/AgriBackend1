@@ -1,6 +1,6 @@
 package com.projectkisan.repository;
 
-import com.projectkisan.model.MarketPrice;
+import com.projectkisan.dto.MarketPrice;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

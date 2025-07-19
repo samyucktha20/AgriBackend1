@@ -1,6 +1,6 @@
 package com.projectkisan.controller;
 
-import com.projectkisan.model.Farmer;
+import com.projectkisan.dto.Farmer;
 import com.projectkisan.repository.FarmerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

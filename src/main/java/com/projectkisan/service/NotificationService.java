@@ -1,6 +1,6 @@
 package com.projectkisan.service;
 
-import com.projectkisan.model.Farmer;
+import com.projectkisan.dto.Farmer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

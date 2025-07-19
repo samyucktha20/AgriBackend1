@@ -1,7 +1,7 @@
 package com.projectkisan.controller;
 
-import com.projectkisan.dto.MarketPriceResponse;
-import com.projectkisan.model.MarketPrice;
+import com.projectkisan.model.MarketPriceResponse;
+import com.projectkisan.dto.MarketPrice;
 import com.projectkisan.service.MarketPriceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

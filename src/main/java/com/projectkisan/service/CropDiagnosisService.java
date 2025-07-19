@@ -1,15 +1,13 @@
 package com.projectkisan.service;
 
-import com.projectkisan.dto.DiagnosisRequest;
-import com.projectkisan.dto.DiagnosisResponse;
-import com.projectkisan.model.CropDiagnosis;
-import com.projectkisan.model.Farmer;
+import com.projectkisan.model.DiagnosisRequest;
+import com.projectkisan.model.DiagnosisResponse;
+import com.projectkisan.dto.CropDiagnosis;
+import com.projectkisan.dto.Farmer;
 import com.projectkisan.repository.CropDiagnosisRepository;
 import com.projectkisan.repository.FarmerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.projectkisan.service.FirebaseService;
-import com.projectkisan.service.NotificationService;
 
 import java.time.LocalDateTime;
 import java.util.List;
